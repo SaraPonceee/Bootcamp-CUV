@@ -1,0 +1,45 @@
+    /* 
+    Reglas de Estilos:
+
+    selector {
+        propiedad1: valor;
+        propiedad2: valor;
+        propiedad3: valor;
+        }
+    
+    
+    */
+
+    /* Codigo Hexadecimal = # y 6 caracteres (letras y/o números) */
+    /* * {
+    background-color: rgb(130, 47, 231);
+    } */
+
+* {
+    font-size: 15px;
+}
+
+    div {
+        background-color: rgb(88, 88, 125);
+    }
+
+    h3 {
+        background-color: chartreuse;
+    }
+
+    div p {
+font-size: 20px;
+
+    }
+
+    h2:hover {
+        color: blue;
+    }
+
+    span:hover {
+        background-color: coral;
+    }
+
+    .parrafo {
+        border: 0.1em dashed blueviolet;
+    }

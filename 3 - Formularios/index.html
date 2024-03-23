@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+
+    <!-- Formularios -->
+
+    <form action="" method="get">
+        <!-- Input = Entrada de datos -->
+
+        <label for="nombre">Nombre</label>
+
+        <input id="nombre" placeholder="Por favor ingrese su nombre" minlength="3" maxlength="10" />
+
+        <br>
+
+        <label> Contraseña
+            <input type="password" placeholder="Password" />
+        </label>
+
+        <br>
+
+        <label>
+            <br>Número
+            <input type="number" step="1" min="1" max="5" />
+        </label>
+
+        <br>
+
+        <label>Email:
+            <input type="email" placeholder="Email" required="required">
+
+        </label>
+
+        <br>
+
+        <label>Fecha:
+            <input type="date">
+
+        </label>
+
+        <br>
+
+        <label>Hora
+            <input type="time" />
+        </label>
+
+        <br>
+
+        <label>File:
+
+            <input type="file">
+        </label>
+
+        <br>
+
+        <label>Color:
+            <input type="color">
+        </label>
+
+        <br>
+        <label for="">Textarea
+            <textarea cols="50" rows="10">Hola
+            Mundo
+            Cómo
+            Están
+          </textarea>
+        </label>
+
+        <br>
+
+        <label for="">
+            <input type="checkbox" name="comida"> Asado
+            <br>
+            <input type="checkbox" name="comida"> Milanesa c/pure
+        </label>
+
+        <br>
+
+        <input type="radio" name="sexo"> Masculino
+        <br>
+        <input type="radio" name="sexo"> Femenino
+        <br>
+        <input type="radio" name="sexo"> Otro
+
+    <br> <br>
+    <input type="button" value="guardar">
+
+    <button>Este es un botón</button>
+
+    <button type="submit">Submit</button>
+    </form>
+
+
+
+</body>
+
+</html>
